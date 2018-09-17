@@ -2,7 +2,7 @@ import AppKit
 import MetalKit
 
 /*
- Loads an unpacked Apple IIGS graphic ($C0/$0000) and make available
+ Loads an unpacked Apple IIGS graphic ($C1/$0000) and make available
  the generated macOS bit map.
  */
 public class Converter {
