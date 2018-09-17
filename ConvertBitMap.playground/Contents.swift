@@ -1,5 +1,5 @@
 /*
- A simple Playground demo to load an unpacked Apple IIGS Super-Hires graphic file ($C1/$0000) and display it.
+ A simple Playground demo to load an unpacked Apple IIGS Super-Hires 320x200 graphic file ($C1/$0000) and display it.
  Written in Swift 3.x
  Requires XCode 8.x or later.
  */
