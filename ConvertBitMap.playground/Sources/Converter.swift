@@ -73,7 +73,7 @@ public class Converter {
         for row in 0..<height {
             let whichColorTable = Int(scbs[row] & 0x0f)
             let baseIndex = row * width * bytesPerPixel     // macOS bitmap
-            // Each Apple IIGS scanline is 160 bytes for the $C0/$0000 graphic format.
+            // Each Apple IIGS scanline is 160 bytes for the $C1/$0000 graphic format.
             for col in 0..<160 {
                 let index = row * 160 + col                 // IIgs bitmap
                 let pixels = bitMap[index]                  // 2 IIGS "pixels"
